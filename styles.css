@@ -1,0 +1,225 @@
+
+body{
+  font-family: "Montserrat" !important;
+  font-weight: 900;
+}
+
+
+.nav-customize{
+  text-align: left;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+
+
+h1.font{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+
+.container{
+  padding:2.5% 12%;
+}
+
+.title-img{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+
+i{
+  font-size: 1.5rem;
+  padding-right:6px;
+}
+
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.2rem !important;
+}
+
+nav{
+  padding:0 0 4.5rem !important;
+}
+
+
+.items{
+  padding:0 18px;
+  font-weight: 900;
+}
+
+
+.btn-customize{
+  margin: 5% 3% 5% 0%;
+}
+
+
+
+
+
+/* # Features */
+
+#features{
+  width:80%;
+  margin:auto;
+  margin-top:8%;
+  margin-bottom: 8%;
+  line-height: 2;
+  position: relative;;
+  z-index: 1;
+}
+
+.custo{
+  text-align: center;
+}
+
+#features h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.custo p{
+  color:#8f8f8f;
+  font-weight: 400 !important;
+}
+
+#features i{
+  font-size:4rem !important;
+  color:#ef8172;
+  margin-bottom:4%;
+}
+
+#features i:hover{
+  color:#ff4c68;
+}
+
+.outside-testimonial{
+  background-color:#ef8172;
+  width:100%;
+  text-align:center;
+}
+
+#testimonials{
+  width:80%;
+  margin:auto;
+  padding-top: 7%;
+  color: white;
+
+}
+
+.carousel-control-prev{
+  padding-right:10%;
+}
+
+.carousel-control-next{
+  padding-left: 10%;
+}
+
+#testimonials h2{
+    font-size: 3rem;
+    color:white;
+    font-weight: 700;
+}
+
+.dog-img{
+  padding-top:2%;
+  padding-bottom:4%;
+  border-radius:100%;
+  width:10%;
+}
+
+#press{
+  padding-top:4.5%;
+  padding-bottom:7%;
+}
+.press-img{
+  width:16%;
+}
+
+
+/* #Pricing */
+
+
+#pricing{
+  width:80%;
+  margin:auto;
+  margin-top:6%;
+  margin-bottom: 6%;
+  text-align: center;
+}
+
+#pricing h2, h3{
+  font-weight: 900 !important;
+}
+
+#pricing p{
+  font-weight:400;
+  color: #8f8f8f;
+}
+
+
+.card-deck{
+  padding-top:4%;
+}
+
+@media(max-width:1028px) {
+
+  #title{
+    text-align: center;
+
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background: #ff4c68;
+  text-align: center;
+  padding-top:10%;
+  padding-bottom: 10%;
+}
+
+#cta h3{
+    font-size: 3rem;
+    color:white;
+    padding-bottom: 3%;
+    line-height: 1.5;
+}
+
+.cta-btn{
+  margin:0% .5%;
+}
+
+
+#footer{
+  background: #fff;
+  padding-top:6%;
+  padding-bottom:6%;
+  text-align: center;
+}
+
+#footer p{
+  color:#8f8f8f;
+  margin-top:1.2%;
+  font-weight: 900;
+}
+
+#footer i{
+  margin-right:.5%;
+  font-size:1.2rem;
+}
